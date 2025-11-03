@@ -7,7 +7,7 @@ on:
     branches: [main, dev]
   workflow_dispatch:
   schedule:
-    - cron: "43 14 * * *" # Runs every day at midnight
+    - cron: "48 14 * * *" # Runs every day at midnight
     # cron: "0 0 * * *" # Runs every day at midnight
 
 env:
