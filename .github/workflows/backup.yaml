@@ -1,3 +1,6 @@
+name: Show public IP
+run: curl https://ifconfig.me
+
 name: supabase-backup
 
 on:
